@@ -1,0 +1,39 @@
+
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    list-style-position: inside;
+    min-height: 100vh;
+}
+
+.ten-pct-vw {
+    width: 5vw;
+}
+
+
+.fifty-pct-vh {
+    min-height: 50vh;
+}
+
+textarea.form-control {
+    color:whitesmoke;
+
+}
+
+textarea.form-control:focus {
+    color:rgb(230, 255, 237);
+
+}
+
+/* Fun trick testing */
+.gradient {
+    background-image:
+      radial-gradient(
+        circle at top right,
+        rgb(0, 0, 0),
+        #0d4323 40%
+      );
+  }
