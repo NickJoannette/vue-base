@@ -18,9 +18,10 @@
  <!-- Script -->
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
  
+<!-- DropZone -->
+<script src="js/dropzone.js"></script>
+<link rel="stylesheet" type="text/css" href="styles/dropzone.min.css">
 
- 
- 
  <!-- The App -->
  <script src="js/app.js"></script>
 
@@ -28,32 +29,32 @@
 
 
 <!-- Image and text -->
-<nav class="navbar fixed-top navbar-dark bg-dark justify-content-center">
+<nav class="navbar fixed-top navbar-dark bg-theme-primary justify-content-center">
     <a class="navbar-brand" href="hi.html">
-      <img src="img/cloud-lock-icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
-      ________
+      <img src="img/cloud-lock-icon.png" width="30" height="" class="d-inline-block align-top" alt="">
+      ______________
     </a>
 </nav>
 
 
 <body>
 
-<div style="background-color:whitesmoke;">
-    <div class ="center-screen" id="app">
-        <div class="container">
-            <div class="row">
-              <div class="col-sm">
-                  <label for="codeInputArea">Code input</label>
-                  <textarea class="form-control bg-dark rounded-1 fifty-pct-vh" id="codeInputArea" rows="10" spellcheck=false v-model="inputCode" @keydown="appendCode"@keyup="appendCode">
-                  </textarea>
-              </div>
-              <div class="col-sm">
-                  <label for="codeOutputArea">Code output</label>
-                  <textarea class="form-control bg-dark rounded-1 fifty-pct-vh" id="codeOutputArea" rows="10" spellcheck=false>{{ appendedCode }}</textarea>
-              </div>
-            </div>
-          </div>
+<div class="bg-theme-secondary">
+  <div class ="center-screen" id="app">
+    <div class="container">
+      <form action="/file-upload" class="dropzone" id="my-awesome-dropzone">
+        <div class="fallback">
+          <input  name="file" type="file" multiple />
+         </div>
+        </form>
+      </div>
     </div>
 </div>
 
 </body>
+
+
+<div class ="fifty-px-footer bg-theme-primary">
+
+
+</div>

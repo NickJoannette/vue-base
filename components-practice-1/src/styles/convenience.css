@@ -9,12 +9,23 @@
     min-height: 100vh;
 }
 
-.ten-pct-vw {
+.ten-vw {
     width: 5vw;
 }
 
+.fifteen-padding-top-vh {
+    padding-top: 15vh
+}
 
-.fifty-pct-vh {
+.ten-padding-top-vh {
+    padding-top: 10vh
+}
+
+.five-padding-top-vh {
+    padding-top: 5vh
+}
+
+.fifty-vh {
     min-height: 50vh;
 }
 
@@ -28,6 +39,15 @@ textarea.form-control:focus {
 
 }
 
+
+
+
+
+/* FOOTERS */
+.fifty-px-footer {
+    height:50px;
+}
+
 /* Fun trick testing */
 .gradient {
     background-image:
@@ -37,3 +57,13 @@ textarea.form-control:focus {
         #0d4323 40%
       );
   }
+
+
+  .bg-theme-primary {
+      background-color: #00ADB5;
+  }
+
+  .bg-theme-secondary {
+      background-color: #EEEEEE;
+  }
+
