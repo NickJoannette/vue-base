@@ -2246,6 +2246,7 @@ function (_Emitter) {
   }, {
     key: "processQueue",
     value: function processQueue() {
+      console.log("pq");
       var parallelUploads = this.options.parallelUploads;
       var processingLength = this.getUploadingFiles().length;
       var i = processingLength; // There are already at least as many files uploading than should be
@@ -2257,6 +2258,7 @@ function (_Emitter) {
       var queuedFiles = this.getQueuedFiles();
 
       if (!(queuedFiles.length > 0)) {
+        console.log("no qfs");
         return;
       }
 

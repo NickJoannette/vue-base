@@ -1,0 +1,13 @@
+1. Look at the watchlist widget
+1.1. I want this to be an extra freebie selling point for the webinar. Do you think there will be more buyers/users attending than the MW one?
+
+3. This can be a series of widgets
+2. It can be an IET widget where there are tabs for the parameters, and autooptimization window. There are an infintie nubmer of possibilites nad I want to
+get the go-ahead/intel as to Ninja sales and whether its worth it.
+4. News, PoewrBundle Alerts based on a watchlist
+5. It can also be set up to make calls to an API we develop which provides news, alerts, or signals
+6. We can use this technology of on-chart pop-ups in ninjatrader to sell community gadgets to influencers like ryan matta
+
+7. How can we extend this to MotiveWave?
+8. We can make the new BloodHound for motivewave and steal their concep and marketshare, and then move back to NinjaTrader and double down
+9. Ask MotiveWave if there's anyway to9o inject swing controls onto the chart 

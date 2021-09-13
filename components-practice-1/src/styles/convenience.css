@@ -68,6 +68,10 @@
     padding:10%;
 }
 
+.three-pct-padding {
+    padding:3%;
+}
+
 .fifty-vh {
     min-height: 50vh;
 }
@@ -103,9 +107,9 @@ textarea.form-control:focus {
 
 
   .bg-theme-primary {
-      background-color: #00ADB5;
+      background-color: #0c3f5c;/*00ADB5 00b54b 0073b5*/
   }
-
+  
   .bg-theme-secondary {
       background-color: #EEEEEE;
   }
