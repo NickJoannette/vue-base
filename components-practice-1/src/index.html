@@ -21,6 +21,7 @@
 <!-- DropZone -->
 <script src="js/dropzone.js"></script>
 <link rel="stylesheet" type="text/css" href="styles/dropzone.min.css">
+<link rel="stylesheet" type="text/css" href="styles/basic.css">
 
  <!-- The App -->
  <script src="js/app.js"></script>
@@ -39,10 +40,14 @@
 
 <body>
 
-<div class="bg-theme-secondary">
-  <div class ="center-screen" id="app">
-    <div class="container">
-      <form action="/file-upload" class="dropzone" id="my-awesome-dropzone">
+<div class="">
+  <div class ="center-screen">
+    <div>
+      <form action="/file-upload" class="dropzone dz-clickable bg-theme-secondary max-width-thirty-vw max-height-ten-vh" id="my-awesome-dropzone">
+        <div class="dz-message center-contents thirty-vw ten-vh">
+          <img src="img/cloud-upload-icon.png" width="60" height="" class="d-inline-block align-top" alt="">
+          <p class="ten-pct-padding">Drag &amp; Drop here or click</p> 
+        </div>
         <div class="fallback">
           <input  name="file" type="file" multiple />
          </div>
